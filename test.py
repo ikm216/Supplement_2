@@ -27,3 +27,6 @@ def test_should_return_24_for_6_and_4():
 
 def test_should_return_12_for_6_and_4():
     assert area_tri(6, 4) == 12
+
+def test_should_return_113_for_6():
+    assert area_cir(6) == 113.1
