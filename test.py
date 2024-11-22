@@ -10,7 +10,7 @@ def area_rect(len, wid):
     """
     return len * wid
 
-def area_cir(base, hei):
+def area_tri(base, hei):
      """ Use the area of a circle formula and returns the area
 
     Args:
