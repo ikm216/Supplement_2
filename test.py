@@ -1,4 +1,13 @@
 def area_rect(len, wid):
+    """ Use the area of a rectangle formula and returns the area
+
+    Args:
+        len: the length of the rectangle
+        wid: the width of the rectangle
+
+    Returns:
+        The area of the rectangle
+    """
     return len * wid
 
 def test_should_return_24_for_6_and_4():
