@@ -1,3 +1,5 @@
+import math
+
 def area_rect(len, wid):
     """ Use the area of a rectangle formula and returns the area
 
@@ -21,6 +23,9 @@ def area_tri(base, hei):
         The area of the triangle
     """
      return (base * hei) / 2
+
+def area_cir(rad):
+    return round(math.pi * (rad ** 2), 2)
 
 def test_should_return_24_for_6_and_4():
     assert area_rect(6, 4) == 24
