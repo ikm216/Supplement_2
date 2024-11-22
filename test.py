@@ -25,7 +25,16 @@ def area_tri(base, hei):
      return (base * hei) / 2
 
 def area_cir(rad):
-    return round(math.pi * (rad ** 2), 2)
+     """
+    Calculate the area of a circle
+
+    Args:
+        rad: The radius of the circle
+
+    Returns:
+        The area of the circle
+    """
+     return round(math.pi * (rad ** 2), 2)
 
 def test_should_return_24_for_6_and_4():
     assert area_rect(6, 4) == 24
