@@ -14,11 +14,11 @@ def area_tri(base, hei):
      """ Use the area of a circle formula and returns the area
 
     Args:
-        base: the base of the 
-        hei: the width of the rectangle
+        base: the base of the triangle
+        hei: the height of the triangle
 
     Returns:
-        The area of the rectangle
+        The area of the triangle
     """
      return (base * hei) / 2
 
